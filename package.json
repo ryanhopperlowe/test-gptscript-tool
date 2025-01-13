@@ -1,0 +1,20 @@
+{
+  "name": "test-gptscript-tool",
+  "version": "1.0.0",
+  "description": "A tool that can generate a random number",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@gptscript-ai/gptscript": "github:gptscript-ai/node-gptscript#d4b222c34e757b62429dc43ae9cc44aa3f6c9700"
+  },
+  "keywords": [
+    "gptscript",
+    "random",
+    "random-number"
+  ],
+  "author": "Ryan Hopper-Lowe",
+  "license": "ISC"
+}

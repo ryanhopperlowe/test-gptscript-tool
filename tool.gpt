@@ -1,0 +1,19 @@
+---
+Name: Random Number
+Description: A tool that can generate a random number
+Param: min: optional minimum number. Defaults to 1.
+Param: max: optional maximum number. Defaults to 100.
+
+#!/usr/bin/env/ node ${GPTSCRIPT_TOOL_DIR}/index.js
+
+---
+Name: Random Number Context
+Type: context
+
+#!sys.echo
+
+## Instructions for using Random Number tool
+
+The user can use this tool to generate a random number between a minimum and maximum value. the minimum and maximum values are optional and will default to 1 and 100 if not provided.
+
+## End of Instructions for using the Random Number tool
