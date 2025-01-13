@@ -1,6 +1,7 @@
 ---
 Name: Random Number
 Description: A tool that can generate a random number
+Share Context: Random Number Context
 Param: min: optional minimum number. Defaults to 1.
 Param: max: optional maximum number. Defaults to 100.
 
