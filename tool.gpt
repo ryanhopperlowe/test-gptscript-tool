@@ -1,5 +1,5 @@
 ---
-Name: Random Number
+Name: Random Number test
 Description: A tool that can generate a random number
 Share Context: Random Number Context
 Param: min: optional minimum number. Defaults to 1.
